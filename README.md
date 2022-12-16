@@ -13,6 +13,12 @@ Note: There are subtle differences between the TensorFlow implementation in http
 
 This implementation makes use of the Cora dataset from [2].
 
+## TMD Layer
+
+MLayer is defined in Layers.py whose archicture is  a feed forward network along with a TMD Layer followed by another feed forward network. It is shown that this constructiion can be used as an alternative to GCN(s).
+
+![TMD Layer](tmd_figure.png)
+
 ## Installation
 
 ```python setup.py install```
